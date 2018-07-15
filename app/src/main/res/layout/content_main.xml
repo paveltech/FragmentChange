@@ -15,8 +15,8 @@
         android:layout_height="wrap_content"
         android:text="Button 1"
         app:layout_constraintRight_toLeftOf="parent"
-        app:layout_constraintLeft_toRightOf="parent"/>
-
+        app:layout_constraintLeft_toRightOf="parent"
+        />
 
     <Button
         android:id="@+id/button_2"
@@ -29,7 +29,6 @@
     <RelativeLayout
         app:layout_constraintTop_toBottomOf="@id/button"
         android:layout_width="match_parent"
-        android:background="@color/colorAccent"
         android:layout_height="wrap_content">
 
         <FrameLayout
@@ -39,7 +38,5 @@
 
         </FrameLayout>
     </RelativeLayout>
-
-
 
 </android.support.constraint.ConstraintLayout>
