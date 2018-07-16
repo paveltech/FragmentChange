@@ -9,13 +9,13 @@
         android:id="@+id/edit_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="name"/>
+        android:hint="School"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/edit_name"
-        android:hint="father"
+        android:hint="year"
         android:id="@+id/edit_father"/>
 
 

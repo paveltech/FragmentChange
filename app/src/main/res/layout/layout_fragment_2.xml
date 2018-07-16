@@ -10,14 +10,14 @@
         android:id="@+id/edit_varsity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="varsity"/>
+        android:hint="Varsity"/>
 
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/edit_varsity"
-        android:hint="college"
+        android:hint="year"
         android:id="@+id/edit_college"/>
 
 
