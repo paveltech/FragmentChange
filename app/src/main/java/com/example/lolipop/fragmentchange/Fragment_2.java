@@ -14,11 +14,6 @@ import butterknife.ButterKnife;
 public class Fragment_2 extends Fragment {
 
 
-    @BindView(R.id.edit_college)
-    EditText college_name;
-    @BindView(R.id.edit_varsity)
-    EditText varsityName;
-
 
     @Nullable
     @Override
