@@ -15,7 +15,6 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-
     public static final String TAG_FRAGMENT_1 ="fragment_1";
     public static final String TAG_FRAGMENT_2 = "fragment_2";
     private static String CURRENT_TAG = "";
@@ -29,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
         handler = new Handler();
         button1 = (Button) findViewById(R.id.button);
         button2 = (Button) findViewById(R.id.button_2);
@@ -46,9 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 setFragment(1);
             }
         });
-
     }
-
 
     public void setFragment(int fragmentNumber){
         switch (fragmentNumber){
